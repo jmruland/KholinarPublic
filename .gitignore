@@ -1,0 +1,35 @@
+# Local automation directories
+
+**/terraform/*
+**/ansible/*
+
+#Docker Secrets
+secrets.txt
+
+# Ignore variables files
+
+*.auto.tfvars
+
+#Ignore Lock Files
+*.lock.hcl
+
+# Ignore override files
+
+*.tfoverride
+
+
+
+# Ignore environment-specific files
+
+.envrc
+
+
+
+# Ignore CLI configuration files
+
+.terraformrc
+
+terraform.rc
+
+GitToken.txt
+Home Infrastructure/November Rebuild/terraform.tfstate
